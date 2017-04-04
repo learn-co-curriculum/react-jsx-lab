@@ -16,6 +16,8 @@ tests won't be able to access your code!
     2. Two `<input>` elements — one has a `text` type, the other one is a `password`
     3. One `<button>` element with the `submit` type
     
+>Note: In JSX, all tags must close. A good example of where this can cause problems is the `<input>` tag. Writting the tag like this will throw an error if you're not following it somewhere with a `</input>`. More often than not though, you don't need to put anything in between the opening and closing input tags. When that's the case, you can just use a self closing tag like this: `<input />`
+    
 ## Webpage
 1. In the `components/FillerText.js` file, create an ES2015 React component called `FillerText`.
 2. This component should be a paragraph containing the following text: `I am a filler text. I can be used to fill your
